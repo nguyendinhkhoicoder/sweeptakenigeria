@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peringatan Kesehatan: Hipertensi Meningkat 34% — Solusi Alami Ditemukan</title>
+<meta name="description" content="Suplemen alami Artinormee membantu mendukung tekanan darah normal. Baca artikel lengkapnya di sini.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:#2c2c2c;background:#fff;font-size:17px;line-height:1.8;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{text-decoration:none;color:inherit}
+
+/* Progress Bar */
+#progressBar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#c0392b,#e74c3c);width:0%;z-index:9999;transition:width .1s}
+
+/* Ticker */
+.ticker-wrap{background:#c0392b;color:#fff;padding:8px 0;overflow:hidden;white-space:nowrap;position:relative}
+.ticker-text{display:inline-block;animation:ticker 25s linear infinite;font-size:13px;font-weight:600}
+@keyframes ticker{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
+
+/* Header */
+.site-header{background:#fff;border-bottom:2px solid #e8e8e8;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;max-width:100%}
+.logo{display:flex;align-items:center;gap:8px;font-size:20px;font-weight:800;color:#c0392b}
+.logo svg{width:28px;height:28px}
+.nav-links{display:flex;gap:16px;font-size:13px;color:#666}
+.nav-links a:hover{color:#c0392b}
+.sponsored{text-align:center;padding:6px;background:#f5f5f5;font-size:11px;color:#999;letter-spacing:1px;text-transform:uppercase}
+.breadcrumb{max-width:760px;margin:0 auto;padding:12px 20px;font-size:13px;color:#999}
+.breadcrumb span{color:#c0392b}
+
+/* Article Container */
+.article{max-width:760px;margin:0 auto;padding:0 20px}
+
+/* Headline */
+.headline{font-size:28px;font-weight:900;line-height:1.25;color:#1a1a1a;margin:16px 0 12px}
+.subheadline{font-size:17px;color:#555;font-style:italic;margin-bottom:16px;line-height:1.6}
+.meta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:14px 0;border-top:1px solid #eee;border-bottom:1px solid #eee;margin-bottom:24px;font-size:13px;color:#777}
+.meta-row .author{display:flex;align-items:center;gap:8px;font-weight:600;color:#333}
+.meta-row .author img{width:36px;height:36px;border-radius:50%;object-fit:cover}
+.share-row{display:flex;gap:10px;margin:16px 0 24px}
+.share-btn{padding:8px 16px;border-radius:6px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px;cursor:pointer;border:none}
+.share-wa{background:#25D366;color:#fff}
+.share-fb{background:#1877F2;color:#fff}
+
+/* Hero Image */
+.hero-img{width:100%;border-radius:10px;margin-bottom:8px}
+.img-caption{font-size:13px;color:#888;font-style:italic;margin-bottom:24px;text-align:center}
+
+/* Content Typography */
+.article p{margin-bottom:18px}
+.article h2{font-size:24px;font-weight:800;margin:36px 0 16px;color:#1a1a1a;line-height:1.3}
+.article h3{font-size:20px;font-weight:700;margin:28px 0 14px;color:#1a1a1a}
+
+/* Story Section */
+.story-box{background:#fdf6f0;border-left:4px solid #e67e22;padding:24px;border-radius:0 10px 10px 0;margin:24px 0}
+.story-box p{margin-bottom:14px;font-style:italic;color:#444}
+.story-disclaimer{font-size:12px;color:#999;font-style:italic;margin-top:12px}
+
+/* Data Cards */
+.data-section{background:#1a1a2e;border-radius:12px;padding:28px 24px;margin:28px 0;color:#fff}
+.data-section h2{color:#fff;margin-top:0}
+.data-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.data-card{background:rgba(255,255,255,.08);border-radius:10px;padding:20px;text-align:center;border:1px solid rgba(255,255,255,.1)}
+.data-card .number{font-size:32px;font-weight:900;color:#e74c3c;display:block;margin-bottom:6px}
+.data-card .label{font-size:13px;color:#ccc;line-height:1.4}
+.data-highlight{font-size:18px;font-style:italic;text-align:center;color:#ffeaa7;margin:20px 0 0;line-height:1.6}
+
+/* Symptom Check */
+.symptom-box{background:#fff9e6;border:2px solid #f0c040;border-radius:12px;padding:24px;margin:24px 0}
+.symptom-box h3{color:#856404;margin-top:0;font-size:18px}
+.symptom-list{list-style:none;padding:0;margin:14px 0}
+.symptom-list li{padding:10px 0;border-bottom:1px solid #f0e6c0;font-size:16px;display:flex;align-items:flex-start;gap:10px;cursor:pointer;user-select:none}
+.symptom-list li .checkbox{width:22px;height:22px;border:2px solid #c0a030;border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;transition:.2s}
+.symptom-list li.checked .checkbox{background:#c0392b;border-color:#c0392b;color:#fff}
+.symptom-result{display:none;background:#c0392b;color:#fff;padding:14px 18px;border-radius:8px;margin-top:14px;font-weight:600;font-size:15px;text-align:center}
+.symptom-result.show{display:block;animation:fadeIn .5s}
+
+/* Red Accent Section */
+.red-border-section{border-left:4px solid #c0392b;padding-left:20px;margin:24px 0}
+
+/* CTA Button */
+.cta-btn{display:block;width:100%;max-width:480px;margin:28px auto;padding:18px 32px;background:linear-gradient(135deg,#c0392b,#e74c3c);color:#fff;font-size:19px;font-weight:800;text-align:center;border-radius:30px;border:none;cursor:pointer;box-shadow:0 4px 20px rgba(192,57,43,.35);transition:.3s;text-transform:uppercase;letter-spacing:.5px;animation:pulse 2s infinite}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 6px 28px rgba(192,57,43,.5)}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+.cta-sub{text-align:center;font-size:13px;color:#888;margin-top:-18px;margin-bottom:24px}
+
+/* Solution Section */
+.solution-section{background:linear-gradient(135deg,#e8f8f5,#d1f2eb);padding:36px 24px;border-radius:14px;margin:32px 0}
+.solution-section h2{color:#0e6655;margin-top:0}
+
+/* Product Card */
+.product-card{background:#fff;border-radius:14px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,.08);display:flex;flex-direction:column;align-items:center;gap:20px;margin:24px 0}
+.product-card img{max-width:280px;border-radius:10px}
+.product-info{text-align:center}
+.product-info h3{font-size:24px;color:#0e6655;margin-bottom:8px}
+.product-info .tagline{color:#555;margin-bottom:16px;font-style:italic}
+.product-badges{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:12px}
+.badge{background:#d4efdf;color:#1e8449;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600}
+
+/* Ingredient Cards */
+.ingredient-card{background:#fff;border-left:4px solid #1abc9c;border-radius:0 12px 12px 0;padding:20px 24px;margin:16px 0;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.ingredient-card h4{color:#0e6655;font-size:17px;margin-bottom:6px}
+.ingredient-card p{font-size:15px;color:#555;margin:0}
+.ingredient-icon{font-size:24px;margin-bottom:6px}
+
+/* Research Box */
+.research-box{background:#eaf2f8;border:1px solid #aed6f1;border-radius:10px;padding:20px 24px;margin:24px 0}
+.research-box p{margin:0;font-size:15px}
+
+/* Steps */
+.steps{display:flex;justify-content:space-between;gap:16px;margin:28px 0;flex-wrap:wrap}
+.step{flex:1;min-width:140px;background:#fff;border-radius:12px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);position:relative}
+.step-icon{font-size:40px;margin-bottom:10px}
+.step-num{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#1abc9c;color:#fff;width:28px;height:28px;border-radius:50%;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step h4{font-size:15px;color:#333;margin-bottom:4px}
+.step p{font-size:13px;color:#777;margin:0}
+
+/* Expert Quote */
+.expert-card{background:#f8f9fa;border-radius:14px;padding:28px;margin:28px 0;display:flex;gap:20px;align-items:flex-start;border:1px solid #e8e8e8}
+.expert-card img{width:80px;height:80px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.expert-quote{font-style:italic;font-size:16px;color:#444;line-height:1.7;margin-bottom:10px}
+.expert-name{font-weight:700;color:#333;font-size:14px}
+.expert-title{font-size:12px;color:#888}
+.expert-disclaimer{font-size:11px;color:#bbb;margin-top:8px;font-style:italic}
+
+/* Future Pacing */
+.future-section{background:linear-gradient(135deg,#fef9e7,#fdebd0);padding:36px 24px;border-radius:14px;margin:32px 0}
+.future-list{list-style:none;padding:0}
+.future-list li{padding:8px 0;font-size:16px;display:flex;align-items:flex-start;gap:10px}
+.future-list li::before{content:"";display:none}
+
+/* Counter Banner */
+.counter-banner{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;text-align:center;padding:28px 20px;border-radius:12px;margin:32px 0}
+.counter-banner .count{font-size:42px;font-weight:900;color:#f39c12;display:block}
+.counter-banner .count-label{font-size:16px;color:#ddd;margin-top:4px}
+
+/* Testimonials */
+.testimonials-grid{display:grid;grid-template-columns:1fr;gap:16px;margin:24px 0}
+.testimonial-card{background:#fff;border-radius:12px;padding:22px;box-shadow:0 2px 12px rgba(0,0,0,.06);border-left:4px solid #27ae60}
+.testimonial-header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.testimonial-header img{width:48px;height:48px;border-radius:50%;object-fit:cover}
+.testimonial-name{font-weight:700;font-size:15px}
+.testimonial-loc{font-size:12px;color:#888}
+.testimonial-stars{color:#f39c12;font-size:14px;margin-top:2px}
+.testimonial-text{font-size:15px;color:#444;line-height:1.7}
+.testimonial-disclaimer{text-align:center;font-size:12px;color:#aaa;font-style:italic;margin:16px 0}
+
+/* WA Screenshots */
+.wa-proof{display:flex;gap:12px;overflow-x:auto;padding:16px 0;margin:16px 0}
+.wa-msg{background:#dcf8c6;border-radius:0 12px 12px 12px;padding:14px 18px;min-width:260px;max-width:300px;font-size:14px;color:#333;box-shadow:0 1px 4px rgba(0,0,0,.1);flex-shrink:0}
+.wa-msg .wa-name{font-weight:700;color:#075e54;font-size:13px;margin-bottom:4px}
+.wa-msg .wa-time{font-size:11px;color:#999;text-align:right;margin-top:6px}
+
+/* Pricing Section */
+.pricing-section{background:linear-gradient(135deg,#fef5f0,#fdebd0);padding:36px 24px;border-radius:14px;margin:32px 0;text-align:center}
+.price-compare{margin:20px 0}
+.price-compare .old-price{font-size:16px;color:#999;margin-bottom:4px}
+.price-compare .old-price span{text-decoration:line-through}
+.price-compare .new-price{font-size:48px;font-weight:900;color:#c0392b}
+.price-compare .discount-badge{display:inline-block;background:#c0392b;color:#fff;padding:6px 16px;border-radius:20px;font-size:14px;font-weight:700;margin:10px 0}
+.price-daily{font-size:15px;color:#666;margin:10px 0}
+.price-anchor{text-align:left;max-width:400px;margin:0 auto 20px}
+.price-anchor .anchor-item{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee;font-size:14px}
+.price-anchor .anchor-item.bad{color:#c0392b}
+.price-anchor .anchor-item.bad::before{content:"❌ ";flex-shrink:0}
+.price-anchor .anchor-item.fatal{color:#c0392b;font-weight:800}
+.price-anchor .anchor-item.fatal::before{content:"💀 "}
+
+/* Countdown */
+.countdown{display:flex;justify-content:center;gap:8px;margin:20px 0}
+.countdown .cd-box{background:#1a1a2e;color:#fff;padding:12px 16px;border-radius:8px;text-align:center;min-width:60px}
+.countdown .cd-box .cd-num{font-size:28px;font-weight:900;display:block}
+.countdown .cd-box .cd-label{font-size:10px;color:#aaa;text-transform:uppercase}
+
+/* Stock Bar */
+.stock-bar{max-width:400px;margin:16px auto;text-align:left}
+.stock-bar .bar-label{font-size:13px;color:#666;margin-bottom:6px;font-weight:600}
+.stock-bar .bar-track{background:#eee;border-radius:10px;height:12px;overflow:hidden}
+.stock-bar .bar-fill{background:linear-gradient(90deg,#e74c3c,#c0392b);height:100%;border-radius:10px;width:23%;transition:width 1s}
+
+/* Trust Badges */
+.trust-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin:20px 0}
+.trust-item{font-size:13px;color:#555;display:flex;align-items:center;gap:4px}
+
+/* Guarantee Box */
+.guarantee-box{background:#d4efdf;border:2px solid #27ae60;border-radius:12px;padding:20px 24px;margin:20px 0;text-align:center}
+.guarantee-box p{margin:0;font-size:15px;color:#1e8449}
+
+/* Two Paths */
+.paths-section{background:#1a1a2e;border-radius:14px;padding:36px 24px;margin:32px 0;color:#fff;text-align:center}
+.paths-section h2{color:#fff;margin-top:0}
+.paths-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;text-align:left}
+.path-card{border-radius:12px;padding:22px}
+.path-bad{background:rgba(192,57,43,.15);border:1px solid rgba(192,57,43,.3)}
+.path-bad h4{color:#e74c3c;margin-bottom:12px}
+.path-good{background:rgba(39,174,96,.15);border:1px solid rgba(39,174,96,.3)}
+.path-good h4{color:#2ecc71;margin-bottom:12px}
+.path-card ul{list-style:none;padding:0}
+.path-card ul li{padding:6px 0;font-size:14px;color:#ddd;display:flex;align-items:flex-start;gap:8px}
+.paths-callback{font-style:italic;color:#ffeaa7;margin:20px 0 0;font-size:16px;line-height:1.6}
+
+/* Comparison Table */
+.compare-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+.compare-table th{background:#f5f5f5;padding:12px;text-align:left;font-weight:700}
+.compare-table td{padding:10px 12px;border-bottom:1px solid #eee}
+.compare-table .good{color:#27ae60;font-weight:600}
+.compare-table .bad{color:#c0392b;font-weight:600}
+
+/* FAQ */
+.faq-section{margin:36px 0}
+.faq-item{border:1px solid #e8e8e8;border-radius:10px;margin-bottom:10px;overflow:hidden}
+.faq-q{padding:16px 20px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:#fafafa;transition:.2s;font-size:15px}
+.faq-q:hover{background:#f0f0f0}
+.faq-q .toggle{font-size:20px;font-weight:300;transition:.3s;color:#c0392b}
+.faq-q.active .toggle{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease;padding:0 20px}
+.faq-a.open{max-height:500px;padding:0 20px 16px}
+.faq-a p{font-size:15px;color:#555;margin-top:12px}
+
+/* Comments */
+.comments-section{margin:36px 0;border-top:2px solid #eee;padding-top:24px}
+.comments-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.comments-header h3{font-size:20px}
+.comments-tab{background:#c0392b;color:#fff;padding:4px 14px;border-radius:14px;font-size:12px;font-weight:600}
+.comment{padding:16px 0;border-bottom:1px solid #f0f0f0}
+.comment-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.comment-top img{width:40px;height:40px;border-radius:50%;object-fit:cover}
+.comment-name{font-weight:700;font-size:14px}
+.comment-time{font-size:12px;color:#999}
+.comment-text{font-size:15px;color:#444;line-height:1.6}
+.comment-actions{margin-top:8px;font-size:12px;color:#888;display:flex;gap:14px}
+.comment-admin{background:#f0f8ff;border-radius:10px;padding:14px 18px;margin:12px 0 12px 50px;border-left:3px solid #3498db}
+.comment-admin .comment-name{color:#2980b9}
+
+/* Sticky CTA Mobile */
+.sticky-cta{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:2px solid #e74c3c;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;z-index:999;box-shadow:0 -4px 16px rgba(0,0,0,.1);transform:translateY(100%);transition:transform .3s}
+.sticky-cta.show{transform:translateY(0)}
+.sticky-cta .sticky-info{font-size:14px;font-weight:700;color:#333}
+.sticky-cta .sticky-price{color:#c0392b;font-size:13px}
+.sticky-cta .sticky-btn{background:#c0392b;color:#fff;padding:12px 20px;border-radius:25px;font-weight:800;font-size:14px;border:none;cursor:pointer;white-space:nowrap}
+
+/* Footer */
+.footer{background:#1a1a2e;color:#999;padding:36px 20px;margin-top:40px;font-size:12px;line-height:1.8}
+.footer-inner{max-width:760px;margin:0 auto}
+.footer-disclaimer{margin-bottom:16px;color:#777}
+.footer-links{display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap}
+.footer-links a{color:#aaa}
+.footer-links a:hover{color:#fff}
+.footer-copy{color:#555}
+
+/* Animations */
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes countUp{from{opacity:0}to{opacity:1}}
+
+/* Responsive */
+@media(min-width:768px){
+.headline{font-size:38px}
+.testimonials-grid{grid-template-columns:1fr 1fr}
+.product-card{flex-direction:row;text-align:left}
+.product-info{text-align:left}
+.data-grid{grid-template-columns:repeat(4,1fr)}
+.expert-card{flex-direction:row}
+.paths-grid{grid-template-columns:1fr 1fr}
+.sticky-cta{display:none!important}
+.nav-links{display:flex}
+}
+@media(max-width:767px){
+.headline{font-size:24px}
+.data-grid{grid-template-columns:1fr 1fr}
+.paths-grid{grid-template-columns:1fr}
+.expert-card{flex-direction:column;align-items:center;text-align:center}
+.steps{flex-direction:column}
+.nav-links{display:none}
+.countdown .cd-box{min-width:50px;padding:10px 12px}
+.countdown .cd-box .cd-num{font-size:22px}
+}
+</style>
+</head>
+<body>
+
+<!-- Progress Bar -->
+<div id="progressBar"></div>
+
+<!-- Breaking News Ticker -->
+<div class="ticker-wrap">
+<span class="ticker-text">🔴 PERINGATAN KESEHATAN: Kasus stroke akibat hipertensi meningkat 34% di Indonesia — Lebih dari 17 juta orang Indonesia menderita tekanan darah tinggi tanpa menyadarinya &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 🔴 PERINGATAN KESEHATAN: Kasus stroke akibat hipertensi meningkat 34% di Indonesia — Lebih dari 17 juta orang Indonesia menderita tekanan darah tinggi tanpa menyadarinya</span>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+<div class="logo">
+<svg viewBox="0 0 24 24" fill="#c0392b"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+SehatNusantara
+</div>
+<nav class="nav-links">
+<a href="#">Beranda</a>
+<a href="#">Kesehatan</a>
+<a href="#">Jantung</a>
+<a href="#">Gaya Hidup</a>
+</nav>
+</header>
+<div class="sponsored">ARTIKEL SPONSOR</div>
+<div class="breadcrumb">Beranda &gt; Kesehatan Jantung &gt; <span>Hipertensi</span></div>
+
+<!-- ARTICLE START -->
+<article class="article">
+
+<!-- HEADLINE -->
+<h1 class="headline">"Suami Saya Pergi di Usia 52 Tahun Karena Stroke — Padahal Seminggu Sebelumnya Dia Bilang Cuma Pusing Biasa"</h1>
+<p class="subheadline">Kisah nyata yang menginspirasi ribuan orang Indonesia untuk akhirnya serius menangani tekanan darah tinggi — dan penemuan suplemen alami yang mengubah segalanya</p>
+
+<div class="meta-row">
+<div class="author">
+<img src="https://placehold.co/72x72/e8d4c0/5a3e28?text=SW" alt="Foto jurnalis">
+<span>Sari Wulandari, Jurnalis Kesehatan</span>
+</div>
+<span>📅 <span id="articleDate"></span></span>
+<span>👁 <span id="viewCount">89.247</span> pembaca</span>
+<span>💬 2.341 komentar</span>
+</div>
+
+<div class="share-row">
+<button class="share-btn share-wa" onclick="window.open('https://wa.me/?text='+encodeURIComponent(window.location.href))">📱 WhatsApp</button>
+<button class="share-btn share-fb">📘 Facebook</button>
+</div>
+
+<!-- HERO IMAGE -->
+<img class="hero-img" src="https://placehold.co/760x420/2c3e50/ffffff?text=Pria+Duduk+di+Tepi+Tempat+Tidur+Malam+Hari%0AMemegang+Kepala+Karena+Pusing" alt="Pria paruh baya duduk di tepi tempat tidur malam hari memegang kepalanya karena pusing">
+<p class="img-caption">Sakit kepala dan pusing di malam hari sering diabaikan — padahal bisa jadi tanda tekanan darah tinggi yang berbahaya</p>
+
+<!-- INTRO PARAGRAPH -->
+<p style="font-size:19px;font-weight:500">Di seluruh Indonesia, jutaan pria dan wanita di atas 40 tahun diam-diam menderita tekanan darah tinggi. Mereka merasakan pusing, sakit kepala, jantung berdebar — tapi tidak pernah memeriksakan diri. Sampai semuanya terlambat.</p>
+
+<p>Artikel ini ditulis untuk semua orang yang pernah berpikir: <em>"Ah, cuma capek biasa."</em> Karena kata-kata itulah yang diucapkan almarhum suami Ibu Ratna — satu minggu sebelum stroke merenggut nyawanya.</p>
+
+<!-- STORY SECTION -->
+<div class="story-box">
+<h3 style="color:#e67e22;margin-bottom:14px">💔 Kisah Ibu Ratna dari Surabaya</h3>
+<p>"Pak Hendra suami saya orangnya pekerja keras. Umur 52, tidak pernah mengeluh. Tapi saya perhatikan, beberapa bulan terakhir dia sering pusing, tengkuknya sakit, kadang mimisan kecil. Saya suruh ke dokter, dia selalu bilang 'Nanti saja, cuma capek.'"</p>
+<p>"Suatu pagi, saya dengar suara keras dari kamar mandi. Pak Hendra jatuh. Wajahnya pucat, mulutnya mencong, tangannya tidak bisa digerakkan. Saya teriak minta tolong..."</p>
+<p>"Di rumah sakit, dokter bilang: <strong>'Tekanan darahnya 200/120. Sudah berapa lama seperti ini, Bu?'</strong> Saya tidak bisa menjawab. Saya tidak tahu. Pak Hendra tidak pernah cek."</p>
+<p>"Tiga jam kemudian, suami saya pergi. Untuk selamanya."</p>
+<p style="font-weight:700;color:#c0392b">"Kalau saja saya tahu lebih awal... kalau saja ada yang bisa menurunkan tekanan darahnya sebelum terlambat..."</p>
+<p class="story-disclaimer">*Kisah ini berdasarkan pengalaman nyata yang telah diubah untuk melindungi privasi. Namun data di bawah ini adalah FAKTA.</p>
+</div>
+
+<!-- TERRIFYING DATA -->
+<div class="data-section">
+<h2>📊 Data yang Tidak Bisa Anda Abaikan</h2>
+<div class="data-grid">
+<div class="data-card">
+<span class="number" data-target="34">0</span>
+<span class="label">Persen prevalensi hipertensi di Indonesia</span>
+</div>
+<div class="data-card">
+<span class="number">5 menit</span>
+<span class="label">Setiap 5 menit, 1 orang Indonesia meninggal karena penyakit jantung</span>
+</div>
+<div class="data-card">
+<span class="number">70%</span>
+<span class="label">Kasus stroke disebabkan tekanan darah tinggi tak terkontrol</span>
+</div>
+<div class="data-card">
+<span class="number">200jt</span>
+<span class="label">Rupiah — rata-rata biaya perawatan stroke di RS Indonesia</span>
+</div>
+</div>
+<p class="data-highlight">⚠️ "Anda mungkin sedang membaca ini dengan tekanan darah 160/100 tanpa menyadarinya. Hipertensi disebut <strong>'Silent Killer'</strong> karena TIDAK ADA GEJALA sampai semuanya terlambat."</p>
+</div>
+
+<!-- SYMPTOM CHECKER -->
+<div class="symptom-box">
+<h3>⚠️ Apakah Anda Mengalami Gejala Ini?</h3>
+<p style="font-size:14px;color:#856404">Centang yang Anda rasakan:</p>
+<ul class="symptom-list" id="symptomList">
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Sering pusing atau sakit kepala, terutama pagi hari</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Tengkuk terasa berat dan kaku</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Jantung berdebar-debar tanpa sebab jelas</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Mudah lelah dan sesak napas saat aktivitas ringan</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Susah tidur atau sering terbangun di malam hari</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Penglihatan kadang kabur atau berkunang-kunang</li>
+<li onclick="toggleSymptom(this)"><span class="checkbox"></span>Wajah atau telinga sering terasa panas dan memerah</li>
+</ul>
+<div class="symptom-result" id="symptomResult">🚨 PERINGATAN: Anda menunjukkan tanda-tanda tekanan darah tinggi! Jangan abaikan — bertindaklah sekarang sebelum terlambat seperti Pak Hendra.</div>
+</div>
+
+<!-- CTA 1 -->
+<a href="#order" class="cta-btn" onclick="smoothScroll(event,'order')">🔍 Saya Mau Tahu Solusinya →</a>
+<p class="cta-sub">Gratis baca — tanpa kewajiban apapun</p>
+
+<!-- PROBLEM WITH CONVENTIONAL -->
+<h2>💊 Mengapa Obat Darah Tinggi Sering "Gagal"?</h2>
+<p>Jujur saja — obat resep dokter seperti amlodipine, captopril, atau losartan memang bisa menurunkan <em>angka</em> di tensimeter. Tapi apakah itu benar-benar <strong>menyembuhkan</strong>?</p>
+
+<div class="red-border-section">
+<p><strong>Fakta yang jarang dibicarakan:</strong></p>
+<p>❌ Obat kimia hanya menurunkan ANGKA — tidak memperbaiki akar masalah pembuluh darah</p>
+<p>❌ Harus diminum SEUMUR HIDUP — biaya Rp 300.000 - 1.000.000 per bulan, SELAMANYA</p>
+<p>❌ Efek samping: batuk kering, kaki bengkak, pusing, bahkan disfungsi seksual</p>
+<p>❌ Begitu berhenti → tekanan darah LANGSUNG naik lagi, bahkan lebih tinggi</p>
+</div>
+
+<table class="compare-table">
+<tr><th></th><th>Obat Kimia</th><th>Pendekatan Alami</th></tr>
+<tr><td>Memperbaiki akar masalah</td><td class="bad">❌ Tidak</td><td class="good">✅ Ya</td></tr>
+<tr><td>Efek samping</td><td class="bad">❌ Banyak</td><td class="good">✅ Minimal</td></tr>
+<tr><td>Biaya jangka panjang</td><td class="bad">❌ Sangat mahal</td><td class="good">✅ Terjangkau</td></tr>
+<tr><td>Ketergantungan</td><td class="bad">❌ Seumur hidup</td><td class="good">✅ Tidak</td></tr>
+</table>
+
+<p>Inilah mengapa semakin banyak ahli kesehatan merekomendasikan pendekatan alami sebagai <strong>pendamping</strong> untuk mendukung kesehatan kardiovaskular secara menyeluruh...</p>
+
+<!-- SOLUTION SECTION -->
+<div class="solution-section">
+<h2>🌿 Artinormee: Formula Alami 5-in-1 untuk Tekanan Darah Normal</h2>
+<p>Setelah tragedi Pak Hendra, Ibu Ratna bertekad mencari solusi alami. Melalui seorang teman yang bekerja di bidang herbal, beliau menemukan <strong>Artinormee</strong> — suplemen alami dengan 5 bahan aktif yang dirancang khusus untuk mendukung tekanan darah normal.</p>
+
+<div class="product-card">
+<img src="https://placehold.co/320x320/1abc9c/ffffff?text=ARTINORMEE%0ASuplemen+Alami%0AKesehatan+Jantung" alt="Kemasan produk Artinormee suplemen alami kesehatan jantung">
+<div class="product-info">
+<h3>Artinormee</h3>
+<p class="tagline">Suplemen alami untuk mendukung tekanan darah normal & kesehatan jantung</p>
+<div class="product-badges">
+<span class="badge">✅ 100% Bahan Alami</span>
+<span class="badge">✅ Tanpa Efek Samping</span>
+<span class="badge">✅ Hasil dalam 14 Hari</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- INGREDIENTS -->
+<h2>🔬 5 Bahan Aktif yang Bekerja Sinergis</h2>
+<p>Setiap kapsul Artinormee mengandung kombinasi unik bahan-bahan alami yang telah digunakan selama berabad-abad:</p>
+
+<div class="ingredient-card">
+<div class="ingredient-icon">🌿</div>
+<h4>Ekstrak Daun Zaitun (Olive Leaf)</h4>
+<p>Mengandung oleuropein yang terbukti secara klinis membantu melebarkan pembuluh darah dan menurunkan tekanan darah secara alami. Digunakan dalam pengobatan tradisional Mediterania selama lebih dari 3.000 tahun.</p>
+</div>
+
+<div class="ingredient-card">
+<div class="ingredient-icon">🍃</div>
+<h4>Ekstrak Bawang Putih Hitam (Black Garlic)</h4>
+<p>Mengandung S-allyl cysteine 6x lebih tinggi dari bawang putih biasa. Membantu mengurangi kekakuan pembuluh darah, menurunkan kolesterol jahat, dan meningkatkan sirkulasi darah ke seluruh tubuh.</p>
+</div>
+
+<div class="ingredient-card">
+<div class="ingredient-icon">🌺</div>
+<h4>Ekstrak Bunga Hibiscus</h4>
+<p>Kaya anthocyanin dan polifenol yang berfungsi sebagai ACE inhibitor alami — bekerja seperti obat darah tinggi tapi TANPA efek samping. Membantu ginjal mengeluarkan kelebihan natrium.</p>
+</div>
+
+<div class="ingredient-card">
+<div class="ingredient-icon">🫐</div>
+<h4>CoQ10 (Koenzim Q10)</h4>
+<p>Antioksidan kuat yang melindungi jantung dari kerusakan oksidatif. Membantu sel-sel jantung menghasilkan energi optimal dan memperkuat otot jantung yang melemah akibat tekanan darah tinggi kronis.</p>
+</div>
+
+<div class="ingredient-card">
+<div class="ingredient-icon">🐟</div>
+<h4>Omega-3 Konsentrat Tinggi</h4>
+<p>EPA dan DHA murni yang membantu mengurangi peradangan pada dinding pembuluh darah, menurunkan trigliserida, dan menjaga elastisitas arteri — kunci utama tekanan darah yang sehat.</p>
+</div>
+
+<div class="research-box">
+<p>📋 <strong>Hasil uji coba:</strong> Dalam studi terhadap 237 partisipan selama 60 hari, <strong>89% melaporkan penurunan tekanan darah ke level normal</strong>, dan 94% merasakan berkurangnya sakit kepala dan pusing secara signifikan.</p>
+<p style="font-size:12px;color:#888;margin-top:8px;margin-bottom:0"><em>*Hasil individual dapat bervariasi. Suplemen ini bukan pengganti pengobatan medis.</em></p>
+</div>
+
+<!-- HOW IT WORKS -->
+<h2>📋 Cara Kerja Artinormee — Semudah 1-2-3</h2>
+<div class="steps">
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-icon">💊</div>
+<h4>Minum 2 Kapsul/Hari</h4>
+<p>Pagi dan malam setelah makan</p>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-icon">📅</div>
+<h4>Rasakan dalam 14 Hari</h4>
+<p>Pusing berkurang, tidur lebih nyenyak</p>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-icon">💪</div>
+<h4>Optimal di Hari ke-30</h4>
+<p>Tekanan darah stabil, energi kembali</p>
+</div>
+</div>
+
+<!-- EXPERT -->
+<div class="expert-card">
+<img src="https://placehold.co/160x160/34495e/ffffff?text=Dr.+T.H." alt="Foto dokter ahli jantung">
+<div>
+<p class="expert-quote">"Artinormee mengandung kombinasi bahan alami yang berdasarkan berbagai penelitian terbukti mendukung kesehatan kardiovaskular. Sebagai pendamping gaya hidup sehat, suplemen seperti ini bisa memberikan manfaat signifikan bagi penderita hipertensi ringan hingga sedang. Saya merekomendasikannya kepada pasien-pasien saya."</p>
+<p class="expert-name">Dr. Tomás Hartawan, Sp.JP</p>
+<p class="expert-title">Spesialis Jantung — 22 tahun pengalaman</p>
+<p class="expert-disclaimer">*Nama dan foto telah diubah untuk melindungi privasi. Karakter ini bersifat ilustratif.</p>
+</div>
+</div>
+
+<!-- CTA 2 -->
+<a href="#order" class="cta-btn" onclick="smoothScroll(event,'order')">🛡️ Pesan Artinormee dengan Diskon 50% →</a>
+<p class="cta-sub">Bayar di tempat saat barang diterima (COD)</p>
+
+<!-- FUTURE PACING -->
+<div class="future-section">
+<h2>🌅 Bayangkan Hidup Anda 30 Hari dari Sekarang...</h2>
+<img src="https://placehold.co/720x380/f9e4b7/5a3e28?text=Keluarga+Bahagia+Bermain+dengan+Cucu%0Adi+Taman+Sore+Hari" alt="Kakek nenek bahagia bermain dengan cucu di taman" style="border-radius:12px;margin:16px 0">
+<ul class="future-list">
+<li>✅ Bangun pagi tanpa pusing — langsung segar dan berenergi</li>
+<li>✅ Tekanan darah stabil di 120/80 — tanpa rasa khawatir</li>
+<li>✅ Tidur nyenyak semalaman tanpa jantung berdebar</li>
+<li>✅ Bisa bermain dengan cucu tanpa sesak napas</li>
+<li>✅ Tidak takut lagi setiap kali periksa tekanan darah</li>
+<li>✅ Keluarga Anda tenang — karena Anda menjaga kesehatan</li>
+<li>✅ Tidak tergantung obat kimia seumur hidup lagi</li>
+</ul>
+<p style="text-align:center;font-style:italic;color:#7f6c3a;margin-top:16px"><strong>Ini bukan mimpi. Ini yang dirasakan ribuan pengguna Artinormee di seluruh Indonesia.</strong></p>
+</div>
+
+<!-- SOCIAL PROOF COUNTER -->
+<div class="counter-banner">
+<span class="count" id="userCount">0</span>
+<span class="count-label">🇮🇩 Orang Indonesia telah memilih Artinormee untuk kesehatan jantung mereka</span>
+</div>
+
+<!-- TESTIMONIALS -->
+<h2>💬 Apa Kata Mereka yang Sudah Merasakan Manfaatnya?</h2>
+
+<div class="testimonials-grid">
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/2c3e50/ffffff?text=BK" alt="Foto Pak Bambang">
+<div>
+<div class="testimonial-name">Pak Bambang K., 58 tahun</div>
+<div class="testimonial-loc">📍 Jakarta Selatan</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Tensi saya dulu selalu 170/110. Sudah minum amlodipine 3 tahun tapi tetap naik turun dan kaki bengkak karena efek samping. Setelah 3 minggu tambah Artinormee, tensi stabil di 130/85. Sekarang sudah 2 bulan — saya merasa 10 tahun lebih muda! Dokter sampai kaget."</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/8e6b3e/ffffff?text=SN" alt="Foto Ibu Siti">
+<div>
+<div class="testimonial-name">Ibu Siti N., 52 tahun</div>
+<div class="testimonial-loc">📍 Bandung</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Saya guru SD. Setiap siang pasti pusing sampai tidak bisa mengajar dengan baik. Suami belikan Artinormee. Dalam 2 minggu, pusing hilang total. Alhamdulillah sekarang bisa mengajar dari pagi sampai sore tanpa masalah. Terima kasih banyak!"</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/34495e/ffffff?text=WS" alt="Foto Pak Wiranto">
+<div>
+<div class="testimonial-name">Pak Wiranto S., 64 tahun</div>
+<div class="testimonial-loc">📍 Surabaya</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Dokter bilang saya harus minum obat kimia seumur hidup. Saya coba Artinormee sebagai tambahan. Setelah 1 bulan, kontrol ke dokter — tensi saya 125/80, normal sempurna! Dokter sendiri bertanya saya minum apa. Saya bilang: Artinormee. Alhamdulillah."</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/6b4c3b/ffffff?text=DW" alt="Foto Ibu Dewi">
+<div>
+<div class="testimonial-name">Ibu Dewi W., 47 tahun</div>
+<div class="testimonial-loc">📍 Medan</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Ibu saya meninggal karena stroke 2 tahun lalu. Saya sangat takut bernasib sama. Begitu tahu tensi saya 150/95, langsung panik dan cari solusi alami. Artinormee jawaban doa saya. 1 bulan — tensi saya normal. Sekarang saya bisa tidur tenang tanpa ketakutan."</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/2c5f2d/ffffff?text=AG" alt="Foto Pak Agus">
+<div>
+<div class="testimonial-name">Pak Agus G., 55 tahun</div>
+<div class="testimonial-loc">📍 Semarang</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Yang paling saya suka: TIDAK ADA efek samping. Obat dari dokter bikin saya batuk-batuk kering terus dan lemas. Artinormee tidak ada efek samping sama sekali. Dan tensi turun dalam 2 minggu. Ini suplemen terbaik yang pernah saya coba."</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<img src="https://placehold.co/96x96/8b5e3c/ffffff?text=HT" alt="Foto Ibu Hartini">
+<div>
+<div class="testimonial-name">Ibu Hartini T., 61 tahun</div>
+<div class="testimonial-loc">📍 Makassar</div>
+<div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+<p class="testimonial-text">"Awalnya ragu — sudah sering kena tipu produk online. Tapi karena sistemnya bayar di tempat (COD), saya berani coba. Dan ternyata memang benar-benar bagus! Sudah rekomendasikan ke 4 teman arisan saya, mereka semua juga cocok. Alhamdulillah 🤲"</p>
+</div>
+
+</div>
+
+<p class="testimonial-disclaimer">*Nama dan foto telah diubah untuk melindungi privasi. Hasil individual dapat bervariasi.</p>
+
+<!-- WA Screenshots -->
+<h3 style="text-align:center;color:#666;margin:24px 0 8px">📱 Pesan-pesan dari pengguna Artinormee:</h3>
+<div class="wa-proof">
+<div class="wa-msg">
+<div class="wa-name">Mbak Rina 🩷</div>
+Mas, makasih ya rekomendasinya! Bapak sudah minum Artinormee 2 minggu, tensinya turun dari 160 ke 130! 😭🙏 Alhamdulillah
+<div class="wa-time">09:47 ✓✓</div>
+</div>
+<div class="wa-msg">
+<div class="wa-name">Pak Dedi 💪</div>
+Bro sudah sampai paketnya. Baru 5 hari tapi pusing pagi sudah berkurang banyak. Nanti aku pesan lagi buat bokap ya
+<div class="wa-time">14:23 ✓✓</div>
+</div>
+<div class="wa-msg">
+<div class="wa-name">Bu Yuni 🌺</div>
+Anakku yg beliin ini buat aku. Alhamdulillah ya Allah... tensi normal sekarang. Tidur juga nyenyak. Ga nyesel deh pokoknya
+<div class="wa-time">20:15 ✓✓</div>
+</div>
+</div>
+
+<!-- PRICING SECTION -->
+<div class="pricing-section" id="order">
+<h2>🔥 Penawaran Spesial untuk Pembaca SehatNusantara</h2>
+
+<div class="price-anchor">
+<div class="anchor-item bad">Obat darah tinggi/bulan <strong>Rp 300rb-1jt</strong></div>
+<div class="anchor-item bad">Cek lab rutin/bulan <strong>Rp 200.000</strong></div>
+<div class="anchor-item bad">Total per tahun <strong>Rp 6-14,4 juta</strong></div>
+<div class="anchor-item fatal">Rawat inap stroke <strong>Rp 50-200 JUTA</strong></div>
+</div>
+
+<p style="font-size:20px;font-weight:800;margin:20px 0 8px">Investasi kesehatan Anda dengan Artinormee:</p>
+
+<div class="price-compare">
+<div class="old-price">Harga normal: <span>Rp 780.000</span></div>
+<span class="discount-badge">HEMAT 50%</span>
+<div class="new-price">Rp 390.000</div>
+</div>
+<p class="price-daily">💡 Hanya <strong>Rp 13.000/hari</strong> — lebih murah dari secangkir kopi!</p>
+
+<p style="font-weight:700;margin:20px 0 8px">⏰ Harga spesial berakhir dalam:</p>
+<div class="countdown">
+<div class="cd-box"><span class="cd-num" id="cdH">02</span><span class="cd-label">Jam</span></div>
+<div class="cd-box"><span class="cd-num" id="cdM">47</span><span class="cd-label">Menit</span></div>
+<div class="cd-box"><span class="cd-num" id="cdS">33</span><span class="cd-label">Detik</span></div>
+</div>
+<p style="font-size:13px;color:#c0392b;font-weight:600">Setelah waktu habis, harga kembali ke Rp 780.000</p>
+
+<div class="stock-bar">
+<div class="bar-label">📦 Stok tersisa hari ini: <strong style="color:#c0392b">Tinggal 47 paket!</strong></div>
+<div class="bar-track"><div class="bar-fill"></div></div>
+</div>
+
+<!-- MAIN CTA -->
+<a href="https://YOUR-AFFILIATE-LINK-HERE.com" class="cta-btn" id="mainCTA" target="_blank" rel="nofollow" style="margin-top:28px;font-size:20px;padding:22px 36px">🛡️ PESAN ARTINORMEE SEKARANG<br><span style="font-size:14px;font-weight:400">Bayar di Tempat saat Barang Diterima</span></a>
+
+<div class="trust-row">
+<span class="trust-item">🚚 Gratis Ongkir</span>
+<span class="trust-item">💰 Bayar saat Terima (COD)</span>
+<span class="trust-item">📦 Kemasan Rahasia</span>
+<span class="trust-item">🔒 Data Aman</span>
+</div>
+
+<div class="guarantee-box">
+<p>✅ <strong>JAMINAN TANPA RISIKO:</strong> Anda TIDAK perlu bayar sekarang. Cukup klik tombol di atas, isi nama & nomor telepon. Tim kami akan menghubungi untuk konfirmasi. Bayar HANYA saat paket sampai di tangan Anda. Tidak cocok? Tidak ada risiko.</p>
+</div>
+</div>
+
+<!-- TWO PATHS -->
+<div class="paths-section">
+<h2>Satu Pertanyaan Terakhir untuk Anda...</h2>
+<p style="font-size:22px;color:#ffeaa7;margin:16px 0 24px;font-weight:700">"Siapa yang menanggung akibatnya jika Anda TIDAK bertindak hari ini?"</p>
+
+<div class="paths-grid">
+<div class="path-card path-bad">
+<h4>❌ Jika Anda TIDAK Bertindak:</h4>
+<ul>
+<li>💔 Tekanan darah terus naik diam-diam</li>
+<li>🧠 Risiko stroke meningkat SETIAP HARI</li>
+<li>🩸 Pembuluh darah semakin rusak — kerusakan PERMANEN</li>
+<li>💸 Biaya pengobatan semakin mencekik</li>
+<li>👨‍👩‍👧‍👦 Keluarga kehilangan Anda — seperti Ibu Ratna</li>
+</ul>
+</div>
+<div class="path-card path-good">
+<h4>✅ Jika Anda Bertindak SEKARANG:</h4>
+<ul>
+<li>💚 Tekanan darah mulai stabil dalam 2 minggu</li>
+<li>🛡️ Risiko stroke menurun drastis</li>
+<li>⚡ Energi kembali, tidur nyenyak, hidup berkualitas</li>
+<li>💰 Hemat jutaan rupiah biaya pengobatan</li>
+<li>😊 Keluarga tenang karena Anda sehat & bugar</li>
+</ul>
+</div>
+</div>
+
+<p class="paths-callback">"Pak Hendra tidak pernah mendapat kesempatan ini.<br>Anda masih punya kesempatan. <strong>Jangan sia-siakan.</strong>"</p>
+
+<a href="https://YOUR-AFFILIATE-LINK-HERE.com" class="cta-btn" target="_blank" rel="nofollow" style="margin-top:24px;background:linear-gradient(135deg,#27ae60,#2ecc71)">💚 SAYA PILIH UNTUK SEHAT — PESAN SEKARANG</a>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section">
+<h2>❓ Pertanyaan yang Sering Ditanyakan</h2>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Apakah Artinormee benar-benar aman?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Ya. Artinormee terbuat dari 100% bahan alami tanpa bahan kimia sintetis. Tidak mengandung bahan berbahaya dan aman dikonsumsi setiap hari. Namun, jika Anda memiliki kondisi medis khusus atau sedang mengonsumsi obat tertentu, kami sarankan untuk berkonsultasi dengan dokter Anda terlebih dahulu.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Berapa lama sampai saya merasakan hasilnya?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Kebanyakan pengguna merasakan perbaikan dalam 7-14 hari pertama, seperti berkurangnya pusing dan sakit kepala. Hasil optimal biasanya tercapai setelah 30 hari penggunaan rutin. Hasil dapat bervariasi untuk setiap individu.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Apakah saya harus berhenti minum obat dokter?<span class="toggle">+</span></div>
+<div class="faq-a"><p><strong>TIDAK.</strong> Artinormee adalah SUPLEMEN yang melengkapi pengobatan Anda, bukan menggantikan. Jangan pernah berhenti minum obat dokter tanpa konsultasi terlebih dahulu. Artinormee bekerja secara sinergis dengan perawatan medis Anda.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Bagaimana cara pemesanan dan pembayaran?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Sangat mudah! Klik tombol "Pesan Sekarang", isi nama dan nomor telepon Anda. Tim kami akan menghubungi untuk konfirmasi pesanan. Paket akan dikirim ke alamat Anda, dan Anda membayar CASH saat menerima paket (COD). Tidak perlu transfer atau kartu kredit.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Apakah kemasannya rahasia? Saya malu kalau tetangga tahu.<span class="toggle">+</span></div>
+<div class="faq-a"><p>Tenang, kami mengerti. Paket dikirim dalam kemasan polos tanpa nama produk terlihat dari luar. Kurir dan tetangga Anda tidak akan tahu apa isinya. Privasi Anda adalah prioritas kami.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Apakah bisa dikirim ke kota saya?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Ya! Kami mengirim ke seluruh kota besar di Indonesia termasuk Jakarta, Surabaya, Bandung, Medan, Semarang, Makassar, dan banyak kota lainnya. Pengiriman biasanya memakan waktu 3-5 hari kerja.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Kenapa harganya bisa diskon 50%?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Ini adalah program promosi khusus untuk pembaca SehatNusantara dan pelanggan baru. Penawaran ini terbatas waktu dan stok. Setelah periode promosi berakhir, harga akan kembali ke Rp 780.000.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q" onclick="toggleFaq(this)">Apa ada efek sampingnya?<span class="toggle">+</span></div>
+<div class="faq-a"><p>Sejauh ini, tidak ada laporan efek samping dari pengguna Artinormee. Karena terbuat dari bahan-bahan alami, suplemen ini sangat well-tolerated. Namun, jika Anda alergi terhadap salah satu bahan, silakan konsultasi dengan dokter terlebih dahulu.</p></div>
+</div>
+
+</div>
+
+<!-- COMMENTS -->
+<div class="comments-section">
+<div class="comments-header">
+<h3>💬 Komentar Pembaca (2.341)</h3>
+<span class="comments-tab">Terbaru</span>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/d4a76a/fff?text=RN" alt="Foto Bu Rina">
+<div>
+<div class="comment-name">Bu Rina Nurhaliza</div>
+<div class="comment-time">2 jam yang lalu</div>
+</div>
+</div>
+<p class="comment-text">Barusan pesan! 🙏 Semoga beneran bagus seperti yang ditulis. Suami saya tensinya sudah 160/100 hampir 2 tahun, minum obat terus tapi ga turun-turun. Mohon doanya ya teman-teman...</p>
+<div class="comment-actions">👍 47 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/5b7a3a/fff?text=DD" alt="Foto Pak Dedi">
+<div>
+<div class="comment-name">Pak Dedi Suryanto</div>
+<div class="comment-time">5 jam yang lalu</div>
+</div>
+</div>
+<p class="comment-text">SUDAH PAKAI 3 MINGGU. Saya mau jujur di sini — tensi saya turun dari 175/110 jadi 135/85. Ini BUKAN bohong saudara-saudara. Awalnya saya juga ragu. Tapi karena bayar COD ya sudah saya coba. Dan ternyata MEMANG BAGUS. Alhamdulillah. 🙏</p>
+<div class="comment-actions">👍 189 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/c0855c/fff?text=AN" alt="Foto Bu Ani">
+<div>
+<div class="comment-name">Bu Ani Sulistyo</div>
+<div class="comment-time">Kemarin, 16:30</div>
+</div>
+</div>
+<p class="comment-text">Paketnya sudah sampai tadi pagi, cepat sekali! Kemasan rapi dan memang rahasia — tidak ada tulisan apa-apa di luar. Mulai minum hari ini. Doakan ya semua 🤲</p>
+<div class="comment-actions">👍 34 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment-admin">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/c0392b/fff?text=SN" alt="Admin SehatNusantara">
+<div>
+<div class="comment-name" style="color:#2980b9">Admin SehatNusantara ✓</div>
+<div class="comment-time">Kemarin, 17:15</div>
+</div>
+</div>
+<p class="comment-text">Terima kasih untuk semua pembaca yang sudah berbagi pengalaman! 🙏 Kami informasikan bahwa stok Artinormee untuk bulan ini tinggal sangat sedikit. Bagi yang belum pesan, silakan segera sebelum kehabisan. Link pemesanan ada di artikel di atas.</p>
+<div class="comment-actions">👍 12 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/3a5f7a/fff?text=JK" alt="Foto Pak Joko">
+<div>
+<div class="comment-name">Pak Joko Widiyanto</div>
+<div class="comment-time">2 hari yang lalu</div>
+</div>
+</div>
+<p class="comment-text">Saya tenaga medis (bukan spesialis ya). Secara pribadi saya cukup tertarik dengan komposisi bahan-bahannya. Olive leaf extract, CoQ10, Omega-3 — ini semua memang punya evidence ilmiah yang kuat untuk kesehatan kardiovaskular. Sudah pesan untuk Bapak saya yang hipertensi. Semoga cocok. 🙏</p>
+<div class="comment-actions">👍 256 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/7a5c3a/fff?text=YN" alt="Foto Bu Yuni">
+<div>
+<div class="comment-name">Bu Yuni Rahayu</div>
+<div class="comment-time">2 hari yang lalu</div>
+</div>
+</div>
+<p class="comment-text">@suamiku_Budi tolong baca ini ya Pak!! Kamu kan sering pusing sama tengkuk kaku. Jangan tunggu sampai kenapa-kenapa 😤 Aku sudah pesankan ya!!</p>
+<div class="comment-actions">👍 87 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/5a3a7a/fff?text=HR" alt="Foto Pak Heru">
+<div>
+<div class="comment-name">Pak Heru Prasetyo</div>
+<div class="comment-time">3 hari yang lalu</div>
+</div>
+</div>
+<p class="comment-text">Sudah pesan yang KEDUA. Yang pertama buat saya sendiri (alhamdulillah tensi sudah normal), yang kedua untuk Papa mertua. Kalau bagus, mau pesan lagi buat om-om saya. Harga segini worth it banget dibanding biaya ke dokter terus-terusan.</p>
+<div class="comment-actions">👍 145 &nbsp;|&nbsp; Balas</div>
+</div>
+
+<div class="comment">
+<div class="comment-top">
+<img src="https://placehold.co/80x80/3a7a5c/fff?text=MT" alt="Foto Ibu Maria">
+<div>
+<div class="comment-name">Ibu Maria Theresia</div>
+<div class="comment-time">3 hari yang lalu</div>
+</div>
+</div>
+<p class="comment-text">Saya dari Semarang. Paket sampai 4 hari setelah pesan. Bapak saya umur 67 tahun, tensinya 180/105. Sekarang baru 10 hari minum, tapi pusing dan sakit kepalanya sudah jauh berkurang. Besok mau cek tensi lagi. Doakan ya 🙏</p>
+<div class="comment-actions">👍 63 &nbsp;|&nbsp; Balas</div>
+</div>
+
+</div>
+
+<!-- FINAL CTA -->
+<a href="https://YOUR-AFFILIATE-LINK-HERE.com" class="cta-btn" target="_blank" rel="nofollow" style="margin:36px auto;font-size:20px;padding:22px 36px;background:linear-gradient(135deg,#c0392b,#e74c3c)">🛡️ PESAN ARTINORMEE — Rp 390.000<br><span style="font-size:14px;font-weight:400">Bayar di Tempat · Gratis Ongkir · Kemasan Rahasia</span></a>
+
+</article>
+
+<!-- STICKY CTA MOBILE -->
+<div class="sticky-cta" id="stickyCta">
+<div>
+<div class="sticky-info">Artinormee</div>
+<div class="sticky-price">Rp 390.000 <span style="text-decoration:line-through;color:#999;font-size:11px">Rp 780.000</span></div>
+</div>
+<a href="https://YOUR-AFFILIATE-LINK-HERE.com" class="sticky-btn" target="_blank" rel="nofollow">PESAN SEKARANG</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-inner">
+<p class="footer-disclaimer"><strong>DISCLAIMER:</strong> Artikel ini merupakan materi promosi dan bersifat informatif. Artinormee adalah suplemen makanan (food supplement), BUKAN obat. Hasil individual dapat bervariasi. Konsultasikan dengan dokter Anda sebelum menggunakan suplemen apapun, terutama jika Anda sedang dalam pengobatan. Nama, foto, dan cerita dalam artikel ini telah diubah untuk melindungi privasi. Website ini TIDAK terafiliasi dengan institusi pemerintah manapun, Kementerian Kesehatan, atau BPOM. Suplemen ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan, atau mencegah penyakit apapun.</p>
+<div class="footer-links">
+<a href="#">Kebijakan Privasi</a>
+<a href="#">Syarat & Ketentuan</a>
+<a href="#">Hubungi Kami</a>
+</div>
+<p class="footer-copy">© 2025 SehatNusantara.id — Semua hak dilindungi.</p>
+</div>
+</footer>
+
+<script>
+// === AUTO DATE ===
+(function(){
+const months=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+const d=new Date();d.setDate(d.getDate()-1);
+document.getElementById('articleDate').textContent=d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear();
+})();
+
+// === READING PROGRESS BAR ===
+window.addEventListener('scroll',function(){
+const h=document.documentElement;
+const pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
+document.getElementById('progressBar').style.width=pct+'%';
+});
+
+// === COUNTDOWN TIMER ===
+(function(){
+let total=2*3600+47*60+33;
+function tick(){
+if(total<=0)total=2*3600+47*60+33;
+const h=Math.floor(total/3600);
+const m=Math.floor((total%3600)/60);
+const s=total%60;
+document.getElementById('cdH').textContent=String(h).padStart(2,'0');
+document.getElementById('cdM').textContent=String(m).padStart(2,'0');
+document.getElementById('cdS').textContent=String(s).padStart(2,'0');
+total--;
+}
+tick();setInterval(tick,1000);
+})();
+
+// === COUNTER ANIMATION ===
+(function(){
+const el=document.getElementById('userCount');
+const target=47832;
+let current=0;
+const step=Math.ceil(target/80);
+const interval=setInterval(()=>{
+current+=step;
+if(current>=target){current=target;clearInterval(interval)}
+el.textContent=current.toLocaleString('id-ID');
+},30);
+})();
+
+// === SYMPTOM CHECKER ===
+let checkedCount=0;
+function toggleSymptom(li){
+li.classList.toggle('checked');
+const cb=li.querySelector('.checkbox');
+cb.innerHTML=li.classList.contains('checked')?'✓':'';
+checkedCount=document.querySelectorAll('.symptom-list li.checked').length;
+const result=document.getElementById('symptomResult');
+if(checkedCount>=2){result.classList.add('show')}else{result.classList.remove('show')}
+}
+
+// === FAQ ACCORDION ===
+function toggleFaq(el){
+const wasActive=el.classList.contains('active');
+document.querySelectorAll('.faq-q').forEach(q=>{q.classList.remove('active');q.nextElementSibling.classList.remove('open')});
+if(!wasActive){el.classList.add('active');el.nextElementSibling.classList.add('open')}
+}
+
+// === SMOOTH SCROLL ===
+function smoothScroll(e,id){
+e.preventDefault();
+document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+// === STICKY CTA ===
+(function(){
+const sticky=document.getElementById('stickyCta');
+const triggerEl=document.querySelector('.symptom-box');
+window.addEventListener('scroll',function(){
+if(!triggerEl)return;
+const rect=triggerEl.getBoundingClientRect();
+if(rect.bottom<0&&window.innerWidth<768){sticky.classList.add('show')}else{sticky.classList.remove('show')}
+});
+})();
+
+// === RANDOM VIEW COUNT ===
+(function(){
+const base=89247;
+const rand=Math.floor(Math.random()*500);
+document.getElementById('viewCount').textContent=(base+rand).toLocaleString('id-ID');
+})();
+</script>
+
+</body>
+</html>
